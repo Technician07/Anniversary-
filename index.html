@@ -5,11 +5,12 @@
 <title>Two Years, One Heart ❤️ Aayusha</title>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600;700;800&display=swap');
 
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   background: black;
   color: white;
   overflow: hidden;
@@ -33,7 +34,7 @@ body {
 /* BACKGROUNDS */
 #home { background: radial-gradient(circle, #ff4d6d, #0a0a0a); }
 #story { background: radial-gradient(circle, #ff4d6d, #0a0a0a); }
-#journey { background:radial-gradient(circle, #ff4d6d, #0a0a0a); }
+#journey { background: radial-gradient(circle, #ff4d6d, #0a0a0a); }
 #memory { background: radial-gradient(circle, #1a1a1a, black); }
 #love { background: radial-gradient(circle, #ff4d6d, #0a0a0a); }
 
@@ -44,6 +45,16 @@ body {
   border-radius: 40px;
   max-width: 800px;
   box-shadow: 0 0 50px rgba(255,77,109,0.2);
+  font-weight: 600;
+}
+
+/* HEADINGS */
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 /* BUTTON */
@@ -54,7 +65,7 @@ button {
   border-radius: 30px;
   background: white;
   color: black;
-  font-weight: bold;
+  font-weight: 800;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -74,7 +85,8 @@ img {
 /* TYPING EFFECT */
 .typing {
   font-size: 1.6rem;
-  white-space: hidden;
+  font-weight: 600;
+  white-space: pre-line;
   overflow: hidden;
   border-right: 2px solid white;
   animation: blink 0.7s infinite;
@@ -125,7 +137,7 @@ img {
 <div id="memory" class="page">
   <div class="card">
     <h2>Memories 📸</h2>
-<img src="Screenshot_2026-04-27-16-31-57-810_com.zhiliaoapp.musically-edit.jpg">
+    <img src="Screenshot_2026-04-27-16-31-57-810_com.zhiliaoapp.musically-edit.jpg">
 
     <p class="typing" id="t4"></p>
 
@@ -139,8 +151,8 @@ img {
 <div id="love" class="page">
   <div class="card">
     <h2>Forever ❤️</h2>
-      <img src="Screenshot_2026-04-27-16-41-16-674_com.instagram.android-edit.jpg">
-    
+    <img src="Screenshot_2026-04-27-16-41-16-674_com.instagram.android-edit.jpg">
+
     <p class="typing" id="t5"></p>
 
     <button onclick="showPage('home')">
@@ -195,7 +207,8 @@ function typeJourney(){
 `We didn’t plan this journey.
 It just happened.💕
 
-Every conversation, every silence, every smile built something stronger...And its always you makes me feel happy
+Every conversation, every silence, every smile built something stronger...
+And it's always you who makes me feel happy.
 Something called LOVE.😍`);
 }
 
@@ -214,11 +227,13 @@ function typeLove(){
 `Aayusha ❤️
 
 If I had to choose again,
-I would still choose you...😚 You are the happiness and the love of my life.
+I would still choose you...😚
+
+You are the happiness and the love of my life.
 
 In every lifetime, in every world, in every story.
 
-You are my forever babe🥹♾️. I love you So muchhh🫶😚`);
+You are my forever babe🥹♾️. I love you so much🫶😚`);
 }
 
 /* INIT */
@@ -227,3 +242,6 @@ typeHome();
 
 </body>
 </html>
+
+
+
